@@ -1,0 +1,84 @@
+.container {
+  border: 1px solid black;
+  height: 73vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('../../assets/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #2a3deb;
+}
+
+.ingresarForm {
+  background-color: #fff;
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+}
+
+.ingresarInput {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 50%;
+}
+
+.ingresarInput input {
+  height: 30px;
+  border-radius: 0;
+  width: 100%;
+  border: 1px solid black;
+  border-left: none;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.ingresarInput input:focus {
+  outline: none;
+}
+
+.inputICO {
+  height: 28px;
+  background-color: #83868b;
+  padding: 1px;
+  color: #fff;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.ingresarBTN {
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #094db3;
+  transition: all 1s ease-in-out;
+}
+
+.ingresarBTN:hover {
+  background-color: #0d6efd;
+}
+
+.registrarse {
+  color: #000;
+}
+
+.signup {
+  text-decoration: none;
+  color: #2a3deb;
+  text-transform: uppercase;
+  cursor: pointer;
+}

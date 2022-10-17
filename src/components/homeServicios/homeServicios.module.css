@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+.card {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #a085e3;
+  padding: 20px 0;
+  box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.75);
+}
+
+.serviciosTitulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #fff;
+}
+
+.servicioIMG {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.serviciosDescripcion {
+  width: 70%;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}

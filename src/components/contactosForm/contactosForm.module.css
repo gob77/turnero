@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+}
+
+.contactosIMG {
+  width: 50%;
+}
+
+.contactosForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.inputContainer input,
+.inputContainer textarea {
+  width: 97%;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 20px;
+  resize: none;
+}
+
+.inputContainer input {
+  height: 30px;
+}
+
+.contactosForm button {
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #094db3;
+  transition: all 1s ease-in-out;
+}
+
+.contactosForm button:hover {
+  background-color: #0d6efd;
+}
